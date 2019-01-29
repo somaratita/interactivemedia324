@@ -1,0 +1,37 @@
+* {
+	box-sizing:border-box;
+}
+
+body {
+	background:black;
+
+}
+
+.canvas {
+	width:100vw;
+	height:100vh;
+	margin:0px auto;
+	background:white;
+	position:relative;
+}
+
+
+.container {
+	padding: 200px;
+}
+
+.baller {
+	display: inline-block;
+	background-color: pink;
+	width:10px;
+	height: 10px;
+	border-radius: 50%;
+	z-index: 1;
+	transition: .3s;
+	-webkit-transition: .3s;
+}
+
+.baller:hover {
+	width: 200px;
+	height: 200px;
+}
