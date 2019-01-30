@@ -1,1 +1,75 @@
-style.css
+* {
+	margin: 0 auto;
+}
+
+body {
+	background-image: linear-gradient(#fff, #acb3bf);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+.connectme {
+	
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+	margin: 20px;
+	padding: 10px;
+	font-size: 50px;
+}
+
+
+.module {
+	text-align: center;
+	background-repeat: no-repeat;
+	filter: blur(15px);
+	width: 100%;
+	height: 200px;
+	background-size: cover;
+	margin: 0;
+	position: relative;
+	float: left;
+	transition: 0.1s;
+	-webkit-transition: 0.1s;
+	-moz-transition: 0.1s;
+	-o-transition: 0.1s;
+}
+
+
+.module:hover {
+	filter: blur(0px);
+}
+
+.connect1 {
+	background-image: url(../images/4blondes.png);
+}
+
+.connect2 {
+	background-image: url(../images/808.png);
+}
+
+.connect3 {
+	background-image: url(../images/apple.png);
+}
+
+.connect4 {
+	background-image: url(../images/apt3.png);
+}
+
+.connect5 {
+	background-image: url(../images/BettyBop.png);
+}
+
+.connect6 {
+	background-image: url(../images/bigdicks.png);
+}
+
+.connect7 {
+	background-image: url(../images/bigdicksguest.png);
+}
+
+.connect8 {
+	background-image: url(../images/bigjoe.png);
+}
