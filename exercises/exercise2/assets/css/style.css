@@ -17,7 +17,18 @@ body {
 
 
 .container {
-	padding: 200px;
+	padding: 300px;
+	
+}
+
+.pair {
+	color: white;
+	font-family: sans-serif;
+	font-size: 8px;
+	left:1070px;
+	padding-top: 660px;
+	position: absolute;
+	z-index: 5;
 }
 
 .baller {
@@ -31,7 +42,35 @@ body {
 	-webkit-transition: .3s;
 }
 
-.baller:hover {
-	width: 200px;
-	height: 200px;
+.baller2 {
+	display: inline-block;
+	background-color: pink;
+	width:10px;
+	height: 10px;
+	border-radius: 50%;
+	z-index: 5;
+	transition: .3s;
+	-webkit-transition: .3s;
+}
+
+
+ul {
+	list-style: none;
+}
+
+li {
+	list-style: none;
+	float: left;
+	margin-right: 0px;
+}
+
+li:hover .baller {
+	width: 500px;
+	height: 500px;
+}
+
+li:hover .baller2 {
+	opacity: 0;
+	transition: .1s;
+	-webkit-transition: .1s;
 }
