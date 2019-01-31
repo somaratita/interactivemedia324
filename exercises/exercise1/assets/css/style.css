@@ -6,11 +6,49 @@
 body {
 	margin: 0 auto;
 	background-color:black;
-	width: 1000px;
+	width: 90%;
 	text-align: center;
 }
 
-img {
-	padding-top: 100px;
+
+.homepage {
+	top: 10px;
+    left: 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+    position: absolute;
+}
+
+
+.homepage:hover {
+	position: fixed;
+    top: 10px;
+    left: 10px;
+    opacity: 1.0;
+}
+
+
+button {
+	margin-top: 70px;
+	padding:3px;
+	border-radius: 2px;
+	position: relative;
+}
+
+button:hover {
+	background-color: lightblue;
+}
+
+.part1 {
+	padding-top: 50px;
 	width: 1000px;
+	background-size: cover;
+	display: show;
+}
+
+.part2 {
+	padding-top: 50px;
+	width: 1300px;
+	background-size: cover;
+	display: none;
 }
