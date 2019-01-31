@@ -16,6 +16,25 @@ body {
 }
 
 
+.homepage {
+	top: 10px;
+    left: 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+    position: absolute;
+}
+
+
+.homepage:hover {
+	
+    top: 10px;
+    left: 10px;
+    opacity: 1.0;
+}
+
+
+
+
 .container {
 	padding: 300px;
 	

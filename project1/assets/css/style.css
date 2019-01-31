@@ -9,6 +9,24 @@ body {
 }
 
 
+.homepage {
+	top: 10px;
+    right: 10px;
+    opacity: 0.3;
+    transition: 0.3s;
+    position: absolute;
+}
+
+
+.homepage:hover {
+    top: 10px;
+    right: 10px;
+    opacity: 1.0;
+}
+
+
+
+
 .connectme {
 	
 	font-family: sans-serif;
