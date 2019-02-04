@@ -24,13 +24,13 @@ a {
 	position: fixed;
 	width: 100%;
 	z-index: 100;
-	background-image: linear-gradient(to right, rgba(255,255,255,1),rgba(255,255,255,0))
+	background-color: white;
 }
 
 .navbar {
 	font-family: sans-serif;
-	background-color: #e8e8e8;
-	height: 40px;
+	background-color: #f4f4f4;
+	height: 20px;
 	padding: 10px;
 	margin-bottom: 10px;
 }
