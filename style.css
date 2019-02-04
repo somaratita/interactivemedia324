@@ -2,7 +2,7 @@ body {
 	background-color: gray;
 	text-align: center;
 	margin: 0 auto;
-	margin-top: 500px;
+	
 }
 
 .banner {
@@ -17,6 +17,7 @@ body {
 	word-spacing: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	margin-top: 500px;
 }
 
 .hey img {
@@ -36,4 +37,5 @@ a {
 
 .hide {
 	display: none;
+	visibility: hidden;
 }
