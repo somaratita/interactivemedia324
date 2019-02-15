@@ -52,7 +52,7 @@ body {
 
 .baller {
 	display: inline-block;
-	background-color: pink;
+	background-color: black;
 	width:10px;
 	height: 10px;
 	border-radius: 50%;
@@ -63,7 +63,7 @@ body {
 
 .baller2 {
 	display: inline-block;
-	background-color: pink;
+	background-color: black;
 	width:10px;
 	height: 10px;
 	border-radius: 50%;
@@ -86,10 +86,12 @@ li {
 li:hover .baller {
 	width: 500px;
 	height: 500px;
+	background-color: pink;
 }
 
 li:hover .baller2 {
 	opacity: 0;
 	transition: .1s;
 	-webkit-transition: .1s;
+	background-color: pink;
 }
