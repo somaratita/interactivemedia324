@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>She Will</title>
+	
+	<!-- 
+	***** START CSS ***** 
+	-->
+	<style>
+
+		/* You can change the colors, font, and so on below */
+
+		body {
+			margin: 75px;
+			font-size: 20px;
+			text-transform: uppercase;
+			font-family: "Courier New", Courier, monospace;
+		}
+
+		.list-one {
+
+		}
+
+		.list-two {
+			text-indent: 1em;
+		}
+
+		.list-three {
+			text-indent: 2em;
+		}
+
+		.list-four {
+			text-indent: 3em;
+		}
+
+		p {
+			margin-bottom: 2em;
+		}
+
+	</style>
+	<!-- 
+	***** END CSS ***** 
+	-->
+
+
+	<!-- 
+	***** START JAVASCRIPT ***** 
+	-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			// list one content
+			var one = [
+				"she will burst",
+				"she will begin",
+				"she will face",
+				"she will be praised",
+				"she will see",
+				"she will believe",
+				"she will trample",
+				"she will sing",
+				"she will escape",
+				"she will sing",
+				"she will crawl",
+				"she will fall",
+				"she will follow",
+				"she will find",
+				"she will forgive",
+				"she will forget",
+				"she will float",
+				"she will smile",
+				"she will be charmed",
+				"she will finish",
+				"she will remember",
+				"she will seperate",
+				"she will yield",
+				"she will say",
+				"she will act",
+				"she will be calm",
+				"she will come to",
+				"she will savor",
+				"she will be willful",
+				"she will know"
+			];
+
+			// list two content
+			var two = [
+				"amongst the trees",
+				"in the field",
+				"beneath the ocean",
+				"beneath the sky",
+				"beyond the town",
+				"by the riverbed",
+				"alone on the street",
+				"in the house",
+				"in the middle of town",
+				"by the ocean",
+				"on the water",
+				"in the stairwell",
+				"before the storm",
+				"beyong the trees",
+				"on the sidewalk",
+				"towards the sun"
+			];
+
+			// list three content
+			var three = [
+				"a desperation",
+				"a crack",
+				"a cloud",
+				"a reflection",
+				"at times",
+				"a skyline",
+				"an obstacle",
+				"an idea",
+				"a frenzy",
+				"a person",
+				"a foe",
+				"an insecurity",
+				"a bump",
+				"a street",
+				"an injury",
+				"a lady",
+				"a killer",
+				"a noise",
+				"a sound"
+			];
+
+			// list four content
+			var four = [
+				"too gentle",
+				"too high",
+				"too false",
+				"too true",
+				"too familiar",
+				"too vague",
+				"too peaceful",
+				"too loud",
+				"too pliant",
+				"too formidable",
+				"too urban",
+				"too rich",
+				"too particular",
+				"too strong",
+				"too sensible",
+				"too fractured",
+				"too celebrated",
+				"too weak",
+				"too half-assed",
+				"too young",
+				"with too little time",
+				"too resentful",
+				"too jaded",
+				"too obscure",
+				"too literal",
+				"too articulate",
+				"too ugly",
+				"too independent",
+				"too unsatisfying",
+				"too vicious",
+				"too broken",
+				"too presumptuous",
+				"too inexperienced",
+				"too sacred",
+				"too precious",
+				"too hateful",
+				"too doubtful",
+				"too hopeful",
+				"too small",
+				"too brash",
+				"too fast",
+				"too excellent",
+				"too careful",
+				"too careless",
+				"too scared"
+			];
+
+			// This is a very common randomizing function.
+			// It takes a list (array) and returns one at random.
+			function select_random(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;
+			}
+
+			// This is the generator function
+			function generate(){
+
+				// Select a random item from each list
+				var selected_one = select_random(one);
+				var selected_two = select_random(two);
+				var selected_three = select_random(three);
+				var selected_four = select_random(four);
+
+				// Make a paragraph and then add the selected (random) item from each list list
+				$('body').append('<p>');
+				$('body').append('<div class="list-one">' + selected_one + '</div>');
+				$('body').append('<div class="list-two">' + selected_two + '</div>');
+				$('body').append('<div class="list-three">' + selected_three + '</div>');
+				$('body').append('<div class="list-four">' + selected_four + '</div>');
+				$('body').append('</p>');
+
+			}
+
+			// Run the generator every two seconds ("2000" in the code below)
+			function timeout() {
+			    setTimeout(function () {
+			        generate();
+			        timeout();
+			    }, 2000);
+			}
+
+			generate();
+
+			timeout();
+			
+		});
+
+	</script>
+	<!-- 
+	***** END JAVASCRIPT ***** 
+	-->
+
+</head>
+
+<body>
+
+	<!--
+	This is the visible portion.
+
+	If you want your words or phrases to go side-by-side, change...
+
+	<div></div>
+	to
+	<span></span>
+
+	in the code below.
+	-->
+
+</body>
+
+</html>
