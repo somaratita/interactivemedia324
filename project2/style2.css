@@ -11,8 +11,8 @@ body {
 	height: 150px; 
 	animation: float 6s ease-in-out infinite;
 	position: absolute;
-	top:400px;
-	left:500px;
+	top:300px;
+	left:800px;
 }
 
 
@@ -22,8 +22,8 @@ body {
 	padding: 0.5em; 
 	animation: floatt 6s ease-in-out infinite;
 	position: absolute;
-	top:300px;
-	left:800px;
+	top:400px;
+	left:680px;
 }
 
 
@@ -33,8 +33,8 @@ body {
 	padding: 0.5em; 
 	animation: float 5s ease-in-out infinite;
 	position: absolute;
-	top:500px;
-	left:330px;
+	top:350px;
+	left:1080px;
 }
 
 
@@ -43,8 +43,8 @@ body {
 	padding: 0.5em; 
 	animation: floatt 6s ease-in-out infinite;
 	position: absolute;
-	top:250px;
-	left:950px;
+	top:540px;
+	left:330px;
 }
 
 
@@ -64,7 +64,7 @@ body {
 	padding: 0.5em; 
 	animation: floatt 6s ease-in-out infinite;
 	position: absolute;
-	top:400px;
+	top:200px;
 	left:600px;
 }
 
@@ -74,8 +74,8 @@ body {
 	padding: 0.5em; 
 	animation: float 6s ease-in-out infinite;
 	position: absolute;
-	top:200px;
-	left:600px;
+	top:400px;
+	left:500px;
 }
 
 
@@ -84,8 +84,8 @@ body {
 	padding: 0.5em; 
 	animation: floatt 6s ease-in-out infinite;
 	position: absolute;
-	top:200px;
-	left:1000px;
+	top:130px;
+	left:800px;
 }
 
 #draggable9 { 
@@ -93,8 +93,8 @@ body {
 	padding: 0.5em; 
 	animation: float 6s ease-in-out infinite;
 	position: absolute;
-	top:60px;
-	left:600px;
+	top:200px;
+	left:1000px;
 }
 
 
@@ -103,8 +103,8 @@ body {
 	padding: 0.5em; 
 	animation: floatt 6s ease-in-out infinite;
 	position: absolute;
-	top:200px;
-	left:400px;
+	top:600px;
+	left:540px;
 }
 
 #draggable11 { 
@@ -112,8 +112,8 @@ body {
 	padding: 0.5em; 
 	animation: float 6s ease-in-out infinite;
 	position: absolute;
-	top:650px;
-	left:450px;
+	top:700px;
+	left:490px;
 }
 
 #draggable12 { 
@@ -121,8 +121,8 @@ body {
 	padding: 0.5em; 
 	animation: floatt 6s ease-in-out infinite;
 	position: absolute;
-	top:600px;
-	left:800px;
+	top:300px;
+	left:1000px;
 }
 
 
@@ -132,8 +132,8 @@ body {
 	transform-origin: center bottom;
 	animation: float 6s ease-in-out infinite;
 	position: absolute;
-	top:300px;
-	left:1000px;
+	top:600px;
+	left:900px;
 }
 
 
@@ -142,8 +142,8 @@ body {
 	padding: 0.5em; 
 	animation: floatt 6s ease-in-out infinite;
 	position: absolute;
-	top:400px;
-	left:200px;
+	top:700px;
+	left:1200px;
 }
 
 
@@ -153,7 +153,7 @@ body {
 	animation: float 6s ease-in-out infinite;
 	position: absolute;
 	top:400px;
-	left:700px;
+	left:760px;
 }
 
 
@@ -162,8 +162,8 @@ body {
 	padding: 0.5em; 
 	animation: floatt 6s ease-in-out infinite;
 	position: absolute;
-	top:500px;
-	left:1000px;
+	top:390px;
+	left:250px;
 }
 
 
@@ -172,8 +172,8 @@ body {
 	padding: 0.5em; 
 	animation: float 6s ease-in-out infinite;
 	position: absolute;
-	top:300px;
-	left:300px;
+	top:500px;
+	left:1200px;
 }
 
 
