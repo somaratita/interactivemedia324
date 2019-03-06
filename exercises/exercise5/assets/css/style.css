@@ -126,7 +126,7 @@ img:hover {
 }
 
 .scribble4 {
-	animation: vibratedos 0.5s ease-in-out infinite;
+	animation: vibrate 0.5s ease-in-out infinite;
 	width: 400px;
 	z-index: 6;
 }
@@ -136,12 +136,12 @@ img:hover {
 }
 
 .scribbledo {
-	animation: vibratedos 0.5s ease-in-out infinite;
+	animation: vibrate 0.5s ease-in-out infinite;
 }
 
 .scribbledo:hover {
 	filter:brightness(40%);
-
+	animation: none;
 }
 
 
@@ -150,11 +150,11 @@ img:hover {
 
 .hidden6 {
 	display: none;
-	left: 280px;
+	left: 220px;
 	position: absolute;
 	color: #ca5066;
 	font-family:sans-serif;
-	font-size: 80px;
+	font-size: 70px;
 	font-weight: bold;
 	margin-top: 20px;
 }
@@ -225,6 +225,7 @@ img:hover {
 .hidden10 {
 	position: absolute;
 	display: none;
+	text-align: center;
 	margin-left: 20px;
 	color: #ca5066;
 	font-family:sans-serif;

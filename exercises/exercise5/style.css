@@ -6,18 +6,16 @@ body {
 }
 
 .scribble5 {
-	
 	width: 200px;
 }
 
 .scribble5:hover {
-	width: 800px;
+	width: 900px;
 	filter:brightness(20%);
 	animation: none;
 }
 
 .scribble {
-	
 	width: 200px;
 }
 
