@@ -5,12 +5,12 @@
 body {
 	background-color: #2e2523;
 	width:100%;
+	margin: 0 auto;
 	position: relative;
 	
 }
 
 img {
-	text-align: center;
 	filter:brightness(40%);
 
 }
@@ -21,23 +21,25 @@ img:hover {
 
 
 
-.im-not-a-wrapper {
-	text-align: center;
-	margin-top: 400px;
+#im-not-a-wrapper {
+	margin-top: 200px;
+	margin-left: 20px;
 }
 
 
 
-#hidden {
+.hidden {
 	display: none;
+	position: absolute;
 	color: #ca5066;
 	font-family:sans-serif;
-	font-size: 40px;
+	font-size: 80px;
 	font-weight: bold;
 }
 
 
 .scribble {
+	width: 300px;
 	animation: vibrate 0.5s ease-in-out infinite;
 }
 
@@ -52,4 +54,181 @@ img:hover {
 
 .scribble:hover {
 	animation: none;
+}
+
+
+
+
+
+.scribble2 {
+	animation: vibrate 0.5s ease-in-out infinite;
+	margin-top: 20px;
+	width: 1000px;
+	position: absolute;
+	right: 0px;
+	overflow: hidden;
+}
+
+.scribble2:hover {
+	animation: none;
+}
+
+.hidden2 {
+	position: absolute;
+	display: none;
+	right: 900px;
+	margin-top: 40px;
+	color: #ca5066;
+	font-family:sans-serif;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+
+.scribble3 {
+	animation: vibratedos 0.5s ease-in-out infinite;
+	width: 100%;
+}
+
+.scribble3:hover {
+	animation: none;
+}
+
+.hidden3 {
+	position: absolute;
+	display: none;
+	margin-left: 20px;
+	color: #ca5066;
+	font-family:sans-serif;
+	font-size: 100px;
+	font-weight: bold;
+}
+
+
+@keyframes vibratedos {
+  0%   {transform: translatex(25px)} 
+  25%  {transform: translatex(-20px)}
+  50%  {transform: translatex(15px)}
+  75%  {transform: translatey(25px)}
+  100% {transform: translatex(-20px)}
+}
+
+
+.hidden4 {
+	position: absolute;
+	display: none;
+	margin-left: 20px;
+	color: #ca5066;
+	font-family:sans-serif;
+	font-size: 400px;
+	font-weight: bold;
+	z-index: 5;
+}
+
+.scribble4 {
+	animation: vibratedos 0.5s ease-in-out infinite;
+	width: 400px;
+	z-index: 6;
+}
+
+.scribble4:hover {
+	animation: none;
+}
+
+.scribbledo {
+	animation: vibratedos 0.5s ease-in-out infinite;
+}
+
+.scribbledo:hover {
+	filter:brightness(40%);
+
+}
+
+
+
+
+
+.hidden6 {
+	display: none;
+	left: 280px;
+	position: absolute;
+	color: #ca5066;
+	font-family:sans-serif;
+	font-size: 80px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+
+.scribble6 {
+	position: absolute;
+	left: 200px;
+	width: 300px;
+	animation: vibrate 0.5s ease-in-out infinite;
+}
+
+.scribble6:hover {
+	animation: none;
+}
+
+
+
+.hidden7 {
+	display: none;
+	left: 450px;
+	position: absolute;
+	color: #ca5066;
+	font-family:sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 90px;
+}
+
+
+.scribble7 {
+	position: absolute;
+	left: 200px;
+	width: 300px;
+	animation: vibratetres 0.5s ease-in-out infinite;
+}
+
+.scribble7:hover {
+	animation: none;
+}
+
+
+@keyframes vibratetres {
+  0%   {transform: translatex(25px)}
+  15%  {transform: translatey(25px)}
+  25%  {transform: translatex(-20px)}
+  35%  {transform: translatey(25px)}
+  50%  {transform: translatex(-15px)}
+  75%  {transform: translatey(25px)}
+  100% {transform: translatex(-20px)}
+}
+
+
+
+
+
+
+
+.scribble10 {
+	animation: vibratedos 0.5s ease-in-out infinite;
+	width: 100%;
+}
+
+.scribble10:hover {
+	
+}
+
+.hidden10 {
+	position: absolute;
+	display: none;
+	margin-left: 20px;
+	color: #ca5066;
+	font-family:sans-serif;
+	font-size: 500px;
+	font-weight: bold;
+	animation: vibratedos 0.5s ease-in-out infinite;
 }
