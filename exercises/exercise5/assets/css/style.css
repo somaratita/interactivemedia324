@@ -114,6 +114,37 @@ img:hover {
 }
 
 
+.hidden4 {
+	position: absolute;
+	display: none;
+	margin-left: 20px;
+	color: #ca5066;
+	font-family:sans-serif;
+	font-size: 400px;
+	font-weight: bold;
+	z-index: 5;
+}
+
+.scribble4 {
+	animation: vibratedos 0.5s ease-in-out infinite;
+	width: 400px;
+	z-index: 6;
+}
+
+.scribble4:hover {
+	animation: none;
+}
+
+.scribbledo {
+	animation: vibratedos 0.5s ease-in-out infinite;
+}
+
+.scribbledo:hover {
+	filter:brightness(40%);
+
+}
+
+
 
 
 
