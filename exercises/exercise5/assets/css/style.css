@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+}
+
+body {
+	background-color: #2e2523;
+	width:100%;
+	position: relative;
+	
+}
+
+img {
+	text-align: center;
+	filter:brightness(40%);
+
+}
+
+img:hover {
+	filter:brightness(100%);
+}
+
+
+
+.im-not-a-wrapper {
+	text-align: center;
+	margin-top: 400px;
+}
+
+
+
+#hidden {
+	display: none;
+	color: #ca5066;
+	font-family:sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+
+.scribble {
+	animation: vibrate 0.5s ease-in-out infinite;
+}
+
+
+@keyframes vibrate {
+  0%   {transform: translatex(7px)} 
+  25%  {transform: translatex(-6px)}
+  50%  {transform: translatex(10px)}
+  75%  {transform: translatey(-7px)}
+  100% {transform: translatex(-5px)}
+}
+
+.scribble:hover {
+	animation: none;
+}
