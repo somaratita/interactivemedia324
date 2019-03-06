@@ -2,10 +2,11 @@ body {
   background-image: url("hello4.gif");
   background-size: 100px;
   background-color: #2e2523;
+  background-attachment: fixed;
 }
 
 .scribble5 {
-	animation: vibrate 0.5s ease-in-out infinite;
+	
 	width: 200px;
 }
 
@@ -28,13 +29,4 @@ body {
 	font-size: 150px;
 	font-weight: bold;
 }
-
-@keyframes vibrate {
-  0%   {transform: translatex(7px)} 
-  25%  {transform: translatex(-6px)}
-  50%  {transform: translatex(10px)}
-  75%  {transform: translatey(-7px)}
-  100% {transform: translatex(-5px)}
-}
-
 
