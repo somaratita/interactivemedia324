@@ -1,0 +1,9 @@
+body {
+	background-color: #ececec;
+}
+
+.scrub {
+	width: 700px;
+	height: 700px;
+	background-image: url("/images/hello5.gif");
+}
