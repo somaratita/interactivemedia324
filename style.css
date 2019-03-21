@@ -40,6 +40,23 @@ body {
     opacity: 1.0;
 }
 
+.homepage3 {
+	position: fixed;
+    bottom: 10px;
+    right: 80px;
+    opacity: 0.5;
+    transition: 0.3s;
+
+}
+
+
+.homepage3:hover {
+	position: fixed;
+    bottom: 10px;
+    right: 80px;
+    opacity: 1.0;
+}
+
 
 
 .banner {
